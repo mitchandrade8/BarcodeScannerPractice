@@ -13,7 +13,9 @@ struct BarcodeScannerView: View {
             VStack {
                 Rectangle()
                     .background(.black)
-                    .frame(width: .infinity, height: 240)
+                    .frame(width: .infinity, height: 300)
+                
+                Spacer().frame(height: 60)
                 
                 Label("Scanned Barcode", systemImage: "barcode.viewfinder")
                     .font(.system(size: 30, weight: .regular, design: .default))
